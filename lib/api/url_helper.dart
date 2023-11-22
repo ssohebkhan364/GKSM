@@ -11,9 +11,19 @@ class UrlHelper {
   static const String SchemsMenuUrl = '${baseUrl}scheme/list-view-scheme/';
   static const String SchemsDetailsUrl = '${baseUrl}scheme/scheme/';
   static const String ViewSchemsUrl = '${baseUrl}scheme/view-scheme/';
-   static const String logOut= '${baseUrl}logout';
-  static const String  book_details_url = '${baseUrl}property-detail-report/';
+  static const String logOut = '${baseUrl}logout';
+  static const String book_details_url = '${baseUrl}property-detail-report/';
+  static const String multiple_booking = '${baseUrl}multiple-book-hold/';
+  static const String waitin_list = '${baseUrl}waiting_list/';
+  static const String payment_prrof = '${baseUrl}proof_upload/';
+  static const String payment_prrof_post = '${baseUrl}proof_upload';
+  static const String verify = '${baseUrl}account/reverify';
+  static const String vrifyotp = '${baseUrl}account/verifyotp';
+  static const String revrifyrotp = '${baseUrl}account/reverifyrotp';
+    static const String schemform = '${baseUrl}property/booking';
+      static const String multiple_schemform = '${baseUrl}multiplebookhold';
 
 
-   
+
+    
 }
